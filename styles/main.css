@@ -77,6 +77,11 @@ h1{
     1px 1px 0 #FCFCFC;
 }
 
+/*p{
+  font-family: 'Heartbeat';
+}
+*/
+
 h2{
   border-left: 5px solid #27AE60;
   padding-left: 10px;
@@ -237,8 +242,11 @@ footer{
   }
 }
 
+
 /*
   help! Het lettertype wordt om een of andere reden niet goed geladen... Misschien heeft het iets met het pad naar de fonts te maken?
+  Update: Heb met het p element getest of de font wel werkte en de code werkt, was alleen niet zichtbaar omdat het alleen op 1 h1 element
+  was gekoppeld en die staat achter het logo. 
 */
 @font-face {
   font-family: 'Heartbeat';
