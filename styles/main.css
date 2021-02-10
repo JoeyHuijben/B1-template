@@ -109,6 +109,11 @@ table th.slim{
   width: 100px;
 }
 
+table tfoot td.total{
+  width: 100px;
+  display: inline-block;
+}
+
 table tfoot{
   font-weight: bold;
 }
