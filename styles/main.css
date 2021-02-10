@@ -183,7 +183,9 @@ button{
   height: 64px;
 }
 
-.sidy-by-side{
+.side-by-side{
+  display: flex;
+  justify-content: space-between;
 }
 
 .description{
@@ -219,6 +221,11 @@ footer{
   }
   .hidden-on-sm{
     display: none;
+  }
+  .side-by-side{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 }
 
