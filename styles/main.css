@@ -44,6 +44,18 @@ header{
   animation: fadein 4s;
 }
 
+.product-main-content span{
+  font-weight: bold;
+}
+
+.product-main-content{
+  display: flex;
+}
+.product-text-element p, .product-text-element a{
+  margin: 0;
+  padding: 0;
+}
+
 .logo{
   margin: 0 auto;
   width: 512px;
@@ -227,10 +239,19 @@ footer{
   .hidden-on-sm{
     display: none;
   }
+  .hidden-on-sm.productpage{
+    display: block;
+  }
+  .product-main-content img{
+    width: 100%;
+  }
   .side-by-side{
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+  .product-main-content{
+    display: block;
   }
 }
 
